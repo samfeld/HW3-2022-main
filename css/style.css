@@ -27,7 +27,7 @@ h2{
 nav{
   background-color: #ddd;
   padding: 25px 10px;;    
-  text-align: left;   
+  text-align: left;  
 }
 
 nav a{
@@ -71,9 +71,13 @@ footer a:visited{
 /*****  End Starter Code ****/
 
 /* Requirement 1 code here*/
-
+nav:link{
+  text-decoration: none;
+}
 /* Requirement 2 code here*/
-
+nav:hover{
+  text-decoration-style: wavy;
+}
 
 
 a.skip{
@@ -83,15 +87,21 @@ a.skip{
   transition: left 1s ease-out;
   z-index: 1;
   /* Requirement 3 code here*/
-  
+  position: absolute;
+  left: 500px;
 }
 
 
 /* Requirement 4 code here*/
-
+a:focus{
+  border-top: 2px solid yellow;
+}
 
 .container{
   /* Requirement 5 code here*/
+  display: grid;
+  grid-template-columns: 1fr 5fr 1fr;
+  row-gap: 30px;
 
 }
 
