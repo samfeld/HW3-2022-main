@@ -156,7 +156,7 @@ img{
   
     /*Requirement 11*/
 
-    align-items: left;
+    text-align: right;
   }
 
   nav li{
