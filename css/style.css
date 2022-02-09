@@ -110,8 +110,8 @@ a:focus{
 
 .intro{
   min-height: 400px;
-  color: #DDD;
   background-image: url("../images/header.jpg");
+  color: #DDD;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
