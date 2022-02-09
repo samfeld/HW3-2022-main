@@ -111,7 +111,7 @@ a:focus{
 .intro{
   min-height: 400px;
   background-image: url("../images/header.jpg");
-  color: #DDD;
+  color: #707070;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -174,7 +174,7 @@ img{
 
   .container{
     grid-template-columns: 50px auto 500px auto 50px;
-    grid-template-rows: repeat(5, 300px)
+    grid-template-rows: repeat(4, 300px)
   } 
 
   .about, .method, .clients-image, .contact-image{
