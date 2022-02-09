@@ -127,7 +127,6 @@ img{
 }
 .about-image, #about{
   grid-row-start:1;
-  
 
 }
 #clients, .clients-image{
